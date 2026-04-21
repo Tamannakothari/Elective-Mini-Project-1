@@ -1,0 +1,27 @@
+# Learning Logs 
+
+## Iteration 1: Game Board and Basic Display
+
+In the first iteration, I focused on building the structure of the Tic-Tac-Toe game using HTML and CSS. I created a 3x3 grid to represent the board and used data-index attributes to keep track of each cell’s position. I also added a scoreboard and a status message to indicate whose turn it is.
+
+I used AI to generate an initial layout, but I adjusted the design to make it cleaner and more centered. I added spacing, rounded corners, and subtle shadows so it looked more like an actual game rather than plain text.
+
+
+## Iteration 2: Core Game Logic
+
+In this iteration, I implemented the main functionality using JavaScript. Players can click on cells to place their mark, and the game updates the board, switches turns, and checks for a winner.
+
+The most challenging part was implementing the win detection logic. I used an array to track the board state and compared it against predefined winning combinations. I also handled draw conditions and updated the score dynamically.
+
+I used concepts like variables, arrays, functions, loops, conditionals, and DOM manipulation. AI helped me better understand how to structure the win-checking logic and connect it to the interface.
+
+
+## Iteration 3: Polish and Playtest
+
+In the final iteration, I focused on improving the overall experience of the game. When I first played it, I realized that even though the game worked, it felt slightly incomplete because there was no strong visual indication of how a player won.
+
+To fix this, I added a red line that appears across the winning combination, along with highlighting the winning cells. This made the result much clearer and more satisfying to see. I also added smooth transitions to make the interactions feel more responsive.
+
+Additionally, I improved the restart functionality so that it fully resets the board, colors, and game state without refreshing the page. I also handled edge cases, such as preventing users from clicking already-filled cells or continuing after the game ends.
+
+This iteration helped me understand the difference between a game that technically works and one that feels complete and enjoyable to play. Small visual details, like the red win line, made a big difference in how intuitive the game felt.
